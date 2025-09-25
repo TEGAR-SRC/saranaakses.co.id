@@ -63,8 +63,8 @@ export default function ContactSection() {
               <div>
                 <div className="font-semibold text-white mb-1">Alamat</div>
                 <div className="text-white/70 leading-relaxed">
-                jalan Raja Alikelana MB2 Blok B28 No. 01-04 Belian, Batam Kota,
-                Provinsi Kepulauan Riau, kode pos 29431.
+                  Jalan Raja Alikelana Botania 2 Blok B28 Nomor 1-2, Desa/Kelurahan
+                  Belian, Kec. Batam Kota, Kota Batam, Provinsi Kepulauan Riau.
                 </div>
               </div>
             </div>

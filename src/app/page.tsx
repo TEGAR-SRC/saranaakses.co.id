@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
+import VSATSection from "./components/VSATSection";
 import EducationSection from "./components/EducationSection";
 import DataCenterSection from "./components/DataCenterSection";
 import BGPPeeringSection from "./components/BGPPeeringSection";
@@ -17,7 +18,8 @@ export default function Home() {
       <Header />
       <Hero />
       <AboutSection />
-      <ServicesSection />
+  <ServicesSection />
+  <VSATSection />
       <EducationSection />
       <WhyChooseUsSection />
       <DataCenterSection />
