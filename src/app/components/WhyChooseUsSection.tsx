@@ -34,7 +34,7 @@ export default function WhyChooseUsSection() {
           <p className="mt-2 text-sm text-white/60">Keunggulan layanan internet terbaik</p>
         </div>
         <div className="md:col-span-2 grid sm:grid-cols-2 gap-3">
-          {features.slice(0, 4).map((feature, index) => (
+          {features.map((feature, index) => (
             <div 
               key={index}
               className="rounded-lg border border-white/10 p-4 bg-[#0f0f15] transition hover:border-white/20 hover:bg-white/5"

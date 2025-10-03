@@ -38,7 +38,7 @@ export default function ServicesSection() {
           <p className="mt-2 text-sm text-white/60">Solusi konektivitas untuk beragam kebutuhan</p>
         </div>
         <div className="md:col-span-2 grid sm:grid-cols-2 gap-3">
-          {services.slice(0, 6).map((service, index) => (
+          {services.map((service, index) => (
             <div 
               key={index}
               className="rounded-lg border border-white/10 p-4 bg-[#0f0f15] transition hover:border-white/20 hover:bg-white/5"

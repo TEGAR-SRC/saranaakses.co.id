@@ -20,10 +20,7 @@ export default function Hero() {
           <h1 className="text-3xl sm:text-6xl font-semibold leading-tight tracking-tight mb-4">
             PT Sarana Akses Pratama
           </h1>
-          <h2 className="text-lg sm:text-2xl font-bold text-blue-400 mb-2">Koneksi Internet Andal untuk Corporate & Edukasi</h2>
-          <p className="mt-2 max-w-xl text-white/70">
-            ISP yang berfokus pada layanan cepat, stabil, dan dukungan pelanggan yang responsif di Batam & Kepulauan Riau.
-          </p>
+          <h2 className="text-lg sm:text-2xl font-bold text-blue-400 mb-2">Digital Connectivity & Platform Ecosystem Services</h2>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <a href="#kontak" className="btn-primary inline-flex items-center justify-center rounded-md px-5 py-3 text-sm font-medium hover:opacity-95">
               Hubungi Kami

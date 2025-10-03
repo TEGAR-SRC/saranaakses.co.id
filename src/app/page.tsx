@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import CoverageArea from "./components/CoverageArea";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import VSATSection from "./components/VSATSection";
@@ -26,6 +27,7 @@ export default function Home() {
       <BGPPeeringSection />
       <TestimonialsSection />
       <SupportSection />
+      <CoverageArea />
       <ContactSection />
       <SiteFooter />
     </div>
