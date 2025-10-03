@@ -27,8 +27,8 @@ export default function SiteFooter() {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Kontak</h4>
             <div className="space-y-2 text-sm text-white/60">
-              <div>Jalan Raja Alikelana Botania 2 Blok B28 Nomor 1-2,</div>
-              <div>Desa/Kelurahan Belian, Kec. Batam Kota, Kota Batam, Provinsi Kepulauan Riau</div>
+              <div>Jl. Dapur 12 Kampung Tua, Kel. Sungai Pelunggut,</div>
+              <div>Kec. Sagulung, Kota Batam, Provinsi Kepulauan Riau, Kode Pos 29439</div>
               <div className="mt-3">
                 <a href="tel:+627785522601" className="flex items-center gap-2 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
