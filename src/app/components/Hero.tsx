@@ -2,8 +2,18 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(120%_70%_at_50%_-20%,#1b1b26_0%,#0b0b0f_65%)]" />
-        <div className="absolute -top-24 left-1/2 -translate-x-1/2 h-[420px] w-[420px] rounded-full blur-3xl opacity-40 bg-[conic-gradient(from_180deg_at_50%_50%,#6e7bff_0%,#6e7bff33_40%,transparent_70%)]" />
+        {/* Video Background */}
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/1003.mp4" type="video/mp4" />
+        </video>
+        {/* Overlay untuk memastikan teks tetap terbaca */}
+        <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="relative w-full px-6 sm:px-10 py-24 sm:py-32 min-h-screen flex items-center">
         <div className="w-full flex flex-col justify-center items-center text-center z-10">
