@@ -60,8 +60,15 @@ export default function ContactSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <div>
-                <div className="font-semibold text-white mb-1">Alamat</div>
+              <div className="flex-1">
+                <div className="font-semibold text-white mb-2">Head Office</div>
+                <div className="text-white/70 leading-relaxed mb-4">
+                  Cyber 2 Tower<br />
+                  Jl. H.R. Rasuna Said Blok X-5 No.13<br />
+                  Rasuna Said, Jakarta Selatan<br />
+                  Jakarta
+                </div>
+                <div className="font-semibold text-white mb-2">Branch Office</div>
                 <div className="text-white/70 leading-relaxed">
                   Jl. Dapur 12 Kampung Tua, Kel. Sungai Pelunggut, Kec. Sagulung, 
                   Kota Batam, Provinsi Kepulauan Riau, Kode Pos 29439
